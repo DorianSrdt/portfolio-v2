@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CV</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="/assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="/assets/css/untitled.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link active" href="cv.html">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Conctactez%20moi.html">Contactez moi</a></li>
+                    <a class="nav-link" href="cv_english.html"> <button class="btn" onclick="changeLanguageByButtonClick()"><i class="fa fa-folder" >Traduire</i></button> </a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hide auto-created selection field completely by hiding it's container -->
+<div id="google_translate_element" style="display:none"></div>
+
+
+
+    <main class="page cv-page">
+        <section class="portfolio-block block-intro border-bottom"><img src="/assets/img/avatars/dorian.jpg" style="width: 150px;transform: perspective(0px);border-radius: 100px;">
+            <div class="container">
+                <p style="margin-top: 15px;">Hello ! Je m'appelle <strong>Dorian Sacerdote.</strong><br>Je suis en école d'ingénieur informatique<br>et je suis en recherche de stage pour ma <br>première année&nbsp;en cycle d'ingénieur</p>
+                <div class="about-me"><a class="btn btn-outline-primary" role="button" href="#">Contactez moi</a></div>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="uil uil-moon change-theme" ud="theme-button"></i>   
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-block cv">
+            <div class="container">
+                <div class="work-experience group">
+                    <div class="heading">
+                        <h2 class="text-center">parcours professionnel</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Software Developer</h3>
+                                <h4 class="organization">Wildmoka</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">04/2021 - 07/2021</span></div>
+                        </div>
+                        <p class="text-muted">Le but de ma mission dans cette entreprise est de simplifier la monétisation des contenus à partir de leur application. J'ai ajouté le paramètre qui permet de gérer les publicités de Youtube pour permettre au client de monétiser directement son contenu depuis la plateforme de Wildmoka.</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Préparateur de commande WEB</h3>
+                                <h4 class="organization">Castorama</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">07/2020 - 01/2021</span></div>
+                        </div>
+                        <p class="text-muted">Mon rôle dans l'entreprise est de préparer les commandes de clients provenant d'internet et de gérer les rendez-vous des clients ainsi que leur potentielle livraison à domicile.</p>
+                    </div>
+                </div>
+                <div class="work-experience group">
+                    <div class="heading">
+                        <h2 class="text-center">Projet scolaire</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Reproduction du jeu "Boulderdash"</h3>
+                                <h4 class="organization">jeux vidéo - Java</h4>
+                            </div>
+                        </div>
+                        <p class="text-muted">Développement de la modélisation UML et mise en oeuvre de l'architecture MVC. Stockage des niveaux dans une base de données (SQL).</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Mise en place d'une LAN</h3>
+                                <h4 class="organization">Réseau</h4>
+                            </div>
+                        </div>
+                        <p class="text-muted">Organisation et configuration d'une architecture réseau pour un évènement e-sportif.</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Robot intelligent</h3>
+                                <h4 class="organization">Arduino</h4>
+                            </div>
+                        </div>
+                        <p class="text-muted">Création d'un robot avec une <strong>IA </strong>fabriquée à partir d'<strong>arduino. </strong>Mise en oeuvre de la<strong> Dijkstra algorithme</strong>&nbsp;pour une parcours d'obstacles</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Système d'information</h3>
+                                <h4 class="organization">C++/CLI - SQL Server</h4>
+                            </div>
+                        </div>
+                        <p class="text-muted">Création d'une architecture de type client-server composée d'une application et d'une SGBDR</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Projet développement web (full-stack)</h3>
+                                <h4 class="organization">Front : HTML /&nbsp; CSS / JS -&nbsp;Back : PHP / MySQL&nbsp; /&nbsp; PDO / Ajax</h4>
+                            </div>
+                        </div>
+                        <p class="text-muted">Création d'un <strong>site internet</strong> permettant à des entreprises de trouver des stagiaires et à des étudiants de trouver une entreprise, tous ça à l'aide d'un <strong>moteur de template </strong>(<strong>TWIG</strong>) et l'ajout d'une <strong>PDO </strong>pour l'adapté à tout les format possible.</p>
+                    </div>
+                </div>
+                <div class="education group">
+                    <div class="heading">
+                        <h2 class="text-center">Éducation</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>CESI Sophia-Antipolis&nbsp;</h3>
+                                <h4 class="organization">Ecole d'ingénieur informatique</h4>
+                            </div>
+                            <div class="col-6"><span class="period">09/2018 - 06/2024</span></div>
+                        </div>
+                        <p class="text-muted">1 ère année du cycle ingénieur informatique (méthode PBL)</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3></h3>
+                                <h3>Leonard de vinci</h3>
+                                <h4 class="organization">Lycée</h4>
+                            </div>
+                            <div class="col-6"><span class="period">2016 - 2018</span></div>
+                        </div>
+                        <p class="text-muted">Obtention BAC STI2D juin 2018</p>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Éganaude</h3>
+                                <h4 class="organization">Collège</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">2011 - 2015</span></div>
+                        </div>
+                        <p class="text-muted">Obtention Brevet juin 2015</p>
+                    </div>
+                </div>
+                <div class="group" style="padding-bottom: 5%;">
+                    <div class="row">
+                        <div class="col-md-6" style="height: 516px;">
+                            <div class="skills portfolio-info-card" style="height: 516px;">
+                                <h2>Compétences</h2>
+                                <h3>Système d'exploitation : Windows, Linux</h3>
+                                <h3>Dévelopement : C, C++</h3>
+                                <h3>Web : HTML / CSS / PHP</h3>
+                                <h3 style="width: 332px;">Réseau : Généralités réseaux, <br>Adressage IP / NAT, CCNA1</h3>
+                                <h3 style="width: 282px;">Requête SQL : MySQL, SQL Server, Transact-SQL</h3>
+                                <h3>Electronique : Arduino</h3>
+                                <h3>Permis de conduire</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6" style="height: 516px;">
+                            <div class="contact-info portfolio-info-card" style="height: 274px;">
+                                <h2>Contact</h2>
+                                <div class="row" style="width: 354px;">
+                                    <div class="col-1" style="width: 29.5px;margin: 0px;padding: 0px;"><i class="icon ion-android-calendar icon"></i></div>
+                                    <div class="col-9" style="width: 291px;"><span>04/05/2000</span></div>
+                                </div>
+                                <div class="row" style="width: 354px;">
+                                    <div class="col-1" style="width: 29.5px;margin: 0px;padding: 0px;"><i class="icon ion-person icon"></i></div>
+                                    <div class="col-9" style="width: 291px;"><span>Dorian Sacerdote</span></div>
+                                </div>
+                                <div class="row" style="width: 354px;">
+                                    <div class="col-1" style="width: 29.5px;margin: 0px;padding: 0px;"><i class="icon ion-ios-telephone icon"></i></div>
+                                    <div class="col-9" style="width: 291px;"><span>+33 6 66 91 13 52</span></div>
+                                </div>
+                                <div class="row" style="width: 354px;">
+                                    <div class="col-1" style="width: 29.5px;margin: 0px;padding: 0px;"><i class="icon ion-at icon"></i></div>
+                                    <div class="col-9" style="width: 291px;"><span>dorian.sacerdote@viacesi.fr</span></div>
+                                </div>
+                                <div class="row" style="width: 354px;">
+                                    <div class="col-1" style="width: 29.5px;margin: 0px;padding: 0px;"><img src="/assets/img/linkedin.png" style="width: 16px;color: var(--bs-blue);"></div>
+                                    <div class="col-9" style="width: 291px;"><span></span><span><a href="https://www.linkedin.com/in/dorian-sacerdote/">linkedin</a></span></div>
+                                </div>
+                            </div>
+                            <div class="contact-info portfolio-info-card" style="height: 242px;">
+                                <h2>Langues</h2>
+                                <h6>Français (langue maternelle)</h6><br>
+                                <h6>Anglais : B1 (680 TOEIC)</h6><br>
+                                <h6>Espagnol : A2</h6><span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hobbies_group">
+                    <div class="heading" style="height: 50px;"">
+                        <h2 class="text-center" style="height: 25px;">Passions</h2>
+                            <div class="man" >
+                               <div> <img src="/assets/img/hobbies/man.png" style="width: 64px"  ></div>
+                               <div> <img src="/assets/img/hobbies/controller.png" style="width: 64px"></div>
+                               <div> <img src="/assets/img/hobbies/cooking.png" style="width: 64px"></div>
+                               <div> <img src="/assets/img/hobbies/open-book.png" style="width: 64px"></div>
+                               <div> <img src="/assets/img/hobbies/pen-tablet.png" style="width: 64px"></div>
+                               <div> <img src="/assets/img/hobbies/world.png" style="width: 64px"></div>
+
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="links"><a href="#">À propos de moi</a><a href="#">Contactez moi</a></div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+<script type="text/javascript">
+
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: "en"}, 'google_translate_element');
+    }
+    
+    function changeLanguageByButtonClick() {
+      var language = document.getElementById("language").value;
+      var selectField = document.querySelector("#google_translate_element select");
+      for(var i=0; i < selectField.children.length; i++){
+        var option = selectField.children[i];
+        // find desired langauge and change the former language of the hidden selection-field 
+        if(option.value==language){
+           selectField.selectedIndex = i;
+           // trigger change event afterwards to make google-lib translate this side
+           selectField.dispatchEvent(new Event('change'));
+           break;
+        }
+      }
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</html>

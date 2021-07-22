@@ -1,0 +1,43 @@
+p {
+}
+
+img {
+}
+
+img {
+}
+
+.hobbies_group .heading .man{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.page-footer  {
+        background: linear-gradient(
+    120deg
+    , #7f70f5, #0ea0ff);
+        color: #fff;
+    }
+
+
+/*============= DARK LIGHT MODE ================*/
+.nav__btns{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    background-color: white; /* Blue background */
+    border: none; /* Remove borders */
+    color: Black; /* White text */
+    padding: 2.5px 15px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: #7c7b80;
+}
